@@ -1,0 +1,57 @@
+<html>
+
+<head>
+	<style>
+		body {transition: opacity ease-in 0.2s; } 
+		      body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+	</style>
+	<meta charset="utf-8">
+	<title>pikas</title>
+	<style>
+		body {
+		  overflow: hidden;
+		}
+	</style>
+	<style id="dark-reader-style" type="text/css">
+		@media screen {
+		      html {-webkit-transition : -webkit-filter 300ms linear;}
+		      html {
+		        -webkit-filter: invert(100%) hue-rotate(180deg) brightness(90.3%) contrast(99.6%) !important;
+		      }
+		      img, video, :not(object):not(body)>embed, object,
+		      iframe,
+		      svg image,
+		      [style*='background:url'], [style*='background-image:url'],
+		      [style*='background: url'], [style*='background-image: url'],
+		      [background],
+		      twitterwidget {
+		        -webkit-filter: invert(100%) hue-rotate(180deg) !important;
+		      }
+		      [style*='background:url'] *, [style*='background-image:url'] *,
+		      [style*='background: url'] *, [style*='background-image: url'] *,
+		      input,
+		      [background] * {
+		        -webkit-filter: none !important;
+		      }
+		      iframe:not([title='Disqus']):not([src*='ihlenndgcmojhcghmfjfneahoeklbjjh']) {
+		        background: white !important;
+		      }
+		      html {
+		        text-shadow: 0 0 0 !important;
+		      }
+		      *:-webkit-full-screen, *:-webkit-full-screen * {
+		        -webkit-filter: none !important;
+		      }
+		    }
+	</style>
+</head>
+
+<body style="text-align: center;">
+	<div>
+		<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+			<circle cx="50" cy="50" r="50" />
+		</svg>
+	</div>
+</body>
+
+</html>
